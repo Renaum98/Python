@@ -36,10 +36,29 @@
 #No momento em que a condição for falsa, o processamento da rotina é desviado para fora do laço de repetição.
 #Caso a condição seja falsa, logo no início do laço de repetição, as instruções contidas nele são ignoradas.
 
-x = 1;
-while x <= 15:
-    print(x);
-    x=x+1
+#x = 1;
+#while x <= 15:
+    #print(x);
+    #x=x+1
 
 # É importante observar que, diferente da estrutura For, na estrutura While temos de inicializar a variável antes do início do laço (x=1;) e, também, realizar o incremento dentro do bloco de repetição (x=x+1;).
+
+qtd = 0
+soma = 0
+media = 0
+valor = float(input('Digite um valor:'))
+
+while (valor > 0.0):
+    soma = soma + valor
+    qtd = qtd + 1
+
+    #Entrada de valores
+    valor = float(input('Digite um valor:'))
+    
+    #caso digite um valor negativo o laço encerra
+
+media = soma / qtd
+print('\n Total da Soma:', soma)
+print('\n Quantidade de Valores digitados:', qtd)
+print('\n Media dos Valores:', media)
 
