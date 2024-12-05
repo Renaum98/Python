@@ -11,3 +11,4 @@ A função open() é utilizada para a abertura dos arquivos.
 Sua sintaxe é:
 
 arquivo = open(‘arquivo.txt’, ‘w’)'''
+
