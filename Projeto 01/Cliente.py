@@ -10,7 +10,8 @@ Não utilizar caracteres especiais.
 Não utilizar espaçamento em branco.
 Evitar utilizar os caracteres I e O.
 
-pacotes,modulos e metodos-Utilizar nomes pequenos.
+Pacotes,modulos e metodos-
+Utilizar nomes pequenos.
 Utilizar sempre caracteres minúsculos.
 Utilizar o underline para unir nomes compostos.
 
