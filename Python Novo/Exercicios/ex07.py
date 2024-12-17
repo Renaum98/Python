@@ -1,0 +1,6 @@
+nome = str(input('Digite o nome do Aluno:'))
+n1 = int(input('Digite a nota 1:'))
+n2 = int(input('Digite a nota 2:'))
+n3 = int(input('Digite a nota 3:'))
+n4 = int(input('Digite a nota 4:'))
+print('A media do aluno {} foi {}'.format(nome,(n1+n2+n3+n4)/4))
