@@ -11,7 +11,7 @@ else:
 
 print('Obrigado por testar')
 
-# outra forma de representar porem pode ficar mais complexo e redundante
+# outra forma de representar, porem pode ficar mais complexo e redundante
 '''
 if r1+r2>r3:
     if r2+r3>r1:

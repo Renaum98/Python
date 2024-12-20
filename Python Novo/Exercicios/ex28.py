@@ -2,11 +2,15 @@
 #o programa devera escrever se o usuario venceu ou perdeu
 
 import random
+from time import sleep
 
 print('Tente adivinhar o numero que o Computador ira gerar')
 
 n1 = int(input('Digite um numero inteiro de 0 a 5:'))
 n2 = random.randint(0,5)
+
+print('Processando...')
+sleep(2)
 
 if n1 == n2:
     print('Parabens, você acertou o numero que o computador gerou que foi {}'.format(n2))
