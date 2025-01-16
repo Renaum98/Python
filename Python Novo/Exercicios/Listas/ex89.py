@@ -24,7 +24,7 @@ print('-'*40)
 print(f'{'No.':<5}{'Nome':<20}{'Média':>5}{'Situação':>10}')
 print('-'*40)
 for n, a in enumerate(lista):
-    print(f'{n:<5}{a[0]:.<20}{a[1][2]:>5.1f}{'Aprovado' if a[1][2] > 6 else 'Reprovado':>10}')
+    print(f'{n:<5}{a[0]:.<20}{a[1][2]:>5.1f}{'Aprovado' if a[1][2] >= 6 else 'Reprovado':>10}')
 while True:
     selec= int(input('Mostrar a nota de qual aluno? (999 interrompe)'))
     if selec <len(lista):   
