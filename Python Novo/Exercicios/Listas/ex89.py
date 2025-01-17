@@ -21,7 +21,7 @@ while True:
     if continuar in 'N':
         break
 print('-'*40)
-print(f'{"No.":<5}{"Nome":<20}{"Média":>5}{"Situação":>10}')
+print(f'{'No.':<5}{'Nome':<20}{'Média':>5}{'Situação':>10}')
 print('-'*40)
 for n, a in enumerate(lista):
     print(f'{n:<5}{a[0]:.<20}{a[1][2]:>5.1f}{"Aprovado" if a[1][2] >= 6 else "Reprovado":>10}')
@@ -29,7 +29,7 @@ while True:
     selec= int(input('Mostrar a nota de qual aluno? (999 interrompe)'))
     if selec <len(lista):   
         print(f'As notas de {lista[selec][0]} foram {lista[selec][1][0]} e {lista[selec][1][1]}')
-    else:
-        print('Esse aluno não existe, Digite um aluno valido')
     if selec == 999:
         break
+    else:
+        print('Esse aluno não existe, Digite um aluno valido')
