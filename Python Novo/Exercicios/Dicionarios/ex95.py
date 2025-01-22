@@ -22,6 +22,8 @@ print('-'*40)
 for n, c in enumerate(cadastro):
     print(f'{n:>3} ',end='')
     for d in v.values():
+        print(f'{str(d):<15}',end='')
+    print()
 while True:
     print('-'*40)
     selec= int(input('Mostrar dados de qual jogador? (999 interrompe)'))
