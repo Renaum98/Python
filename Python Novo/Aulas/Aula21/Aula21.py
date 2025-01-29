@@ -4,9 +4,9 @@
 # uteis.py
 # Pacotes são pastas que contém módulos
 
-import uteis
+from uteis import numeros
 num = int(input('Digite um número: '))
-fat = uteis.fatorial(num)
+fat = numeros.fatorial(num)
 print(f'O fatorial de {num} é {fat}.')
-print(f'O dobros de {num} é {uteis.dobro(num)}.')
-print(f'O triplo de {num} é {uteis.triplo(num)}.')
+print(f'O dobros de {num} é {numeros.dobro(num)}.')
+print(f'O triplo de {num} é {numeros.triplo(num)}.')
