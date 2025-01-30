@@ -1,5 +1,5 @@
 import cores
-p = 'Teste'
+p = f'Este é um texto de teste'.center(50)
 print(cores.corVermelha(p))
 print(cores.corVerde(p))
 print(cores.corAmarela(p))
