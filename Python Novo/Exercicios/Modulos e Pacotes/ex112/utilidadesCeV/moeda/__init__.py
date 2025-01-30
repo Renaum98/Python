@@ -36,11 +36,11 @@ def moeda(txt):
 
 def resumo(preço, taxaAu = 0, taxaDi= 0):
     print('-'*30)
-    print(f'{"Resumo do Valor":^30}')
+    print('Resumo do Valor'.center(30))
     print('-'*30)
-    print(f'Preço Analisado:      {moeda(preço)}')
-    print(f'Dobro do Preço:       {dobro(preço, True)}')
-    print(f'Metade do Preço:      {metade(preço, True)}')
-    print(f'{taxaAu}% de aumento:       {aumentar(preço,taxaAu, True)}')
-    print(f'{taxaDi}% de redução:       {diminuir(preço, taxaDi, True)}')
+    print(f'Preço Analisado: \t{moeda(preço)}')
+    print(f'Dobro do Preço: \t{dobro(preço, True)}')
+    print(f'Metade do Preço: \t{metade(preço, True)}')
+    print(f'{taxaAu}% de aumento: \t{aumentar(preço,taxaAu, True)}')
+    print(f'{taxaDi}% de redução: \t{diminuir(preço, taxaDi, True)}')
     print('-'*30)
