@@ -96,7 +96,7 @@ while True:# Loop principal do jogo
         y_maca = randint(50, 430)
         conta_ponto +=1
         som_colisao.play()
-        comprimento_inicial += 20
+        comprimento_inicial += 5
     
     lista_cabeca = []
     lista_cabeca.append(x_cobra)
