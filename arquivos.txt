@@ -1,4 +1,0 @@
-Renan;35
-Marcos;25
-Ana;42
-Marta;52
